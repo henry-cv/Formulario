@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+/* Primera línea para importar la fuente para la pantalla de resultado */
 /* Probando Sass en recordatorio de ReactJS */
 
 $fondo-principal: #000000;
 $texto-color1: bisque;
 $titulo: salmon;
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 .App {
   align-items: center;
   background-color: #000000;
@@ -17,7 +20,7 @@ $titulo: salmon;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   h2 {
     color: $titulo;
     margin: 30px auto;
@@ -64,7 +67,7 @@ $titulo: salmon;
   .sec-resultado {
     border: 1px double black;
     width: 60%;
-    .resultado {
+    #resultado {
       background-color: $texto-color1;
       color: $fondo-principal;
       font-family: "Orbitron";
